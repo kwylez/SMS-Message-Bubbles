@@ -44,6 +44,7 @@
   txtLabel.text            = msgText;
   txtLabel.backgroundColor = [UIColor clearColor];
   txtLabel.font            = [UIFont systemFontOfSize:14.0];
+  txtLabel.tag             = 42;
 
   [txtLabel sizeToFit];
   
@@ -51,6 +52,8 @@
   [newView addSubview:newImage];
 
   [self setBackgroundView:newView];
+
+  [[self.contentView viewWithTag:42] removeFromSuperview];
   [self.contentView addSubview:txtLabel];
   
   [txtLabel release];
