@@ -14,6 +14,8 @@
 @synthesize msgText;
 @synthesize imgName;
 
+@synthesize tipRightward = _tipRightward;
+
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     
   if ((self = [super initWithStyle:style reuseIdentifier:reuseIdentifier])) {
@@ -32,12 +34,32 @@
 
 - (void)layoutSubviews {
 
-  CGSize size           = [ThreadCell calcTextHeight:self.msgText];
+    
+    [super layoutSubviews];
+    NSLog(@"bounds: %@", NSStringFromCGRect( self.bounds));
+    NSLog(@"bounds content: %@", NSStringFromCGRect( self.contentView.bounds));
+    CGFloat widthForText = self.bounds.size.width  - 50;
+    
+  CGSize size           = [ThreadCell calcTextHeight:self.msgText withinWidth: widthForText];
   UIImage *balloon      = [[UIImage imageNamed:self.imgName] stretchableImageWithLeftCapWidth:24 topCapHeight:15];
-  UIImageView *newImage = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, size.width + 35, size.height + 10)];
+  
+    
+    if(self.tipRightward) {
+        balloon = [UIImage imageWithCGImage: balloon.CGImage scale: 1.0 orientation:(UIImageOrientationUpMirrored)];
+        balloon = [balloon stretchableImageWithLeftCapWidth: 24 topCapHeight: 15];
+    }
+    
+    CGFloat xx ;
+    if (self.tipRightward) {
+        xx = 0.0f;
+    }else {
+        xx = self.frame.size.width - size.width - 24 - 10 ;
+    }
+    
+    UIImageView *newImage = [[UIImageView alloc] initWithFrame:CGRectMake(xx, 0.0, size.width + 35, size.height + 10)];
   UIView *newView       = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, self.frame.size.width, self.frame.size.height)];
   
-  UILabel *txtLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 2, size.width, size.height)];
+  UILabel *txtLabel = [[UILabel alloc] initWithFrame:CGRectMake(10 + xx , 2, size.width, size.height)];
 
   txtLabel.lineBreakMode   = UILineBreakModeWordWrap;
   txtLabel.numberOfLines   = 0;
@@ -49,7 +71,9 @@
   [txtLabel sizeToFit];
   
   [newImage setImage:balloon];
-  [newView addSubview:newImage];
+  
+    
+    [newView addSubview:newImage];
 
   [self setBackgroundView:newView];
 
@@ -63,12 +87,18 @@
 }
 
 + (CGSize)calcTextHeight:(NSString *)str {
-  
-  CGSize textSize = {260.0, 20000.0};
-  CGSize size     = [str sizeWithFont:[UIFont systemFontOfSize:14.0] 
-                    constrainedToSize:textSize];
-  
-  return size;
+    
+    return [self calcTextHeight: str withinWidth:260.0];
+    
+}
+
++ (CGSize) calcTextHeight:(NSString *)str withinWidth:(CGFloat)width {
+    
+    CGSize textSize = {width, 20000.0};
+    CGSize size     = [str sizeWithFont:[UIFont systemFontOfSize:14.0] 
+                      constrainedToSize:textSize];
+    
+    return size; 
 }
 
 - (void)dealloc {
