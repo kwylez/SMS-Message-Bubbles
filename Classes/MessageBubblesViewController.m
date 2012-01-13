@@ -79,6 +79,7 @@
   }
 
   cell.imgName = (indexPath.section % 2 == 0) ? @"aqua.png" : @"purple.png";
+    cell.tipRightward = (indexPath.section % 2 == 0);
   cell.msgText = [self.messages objectAtIndex:indexPath.section];
       
   return cell;
@@ -87,7 +88,16 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
 
 	NSString *aMsg = [self.messages objectAtIndex:indexPath.section];
-	CGSize size    = [ThreadCell calcTextHeight:aMsg];
+    
+    CGFloat widthForText ;
+    UIInterfaceOrientation orient = [self interfaceOrientation];
+    if (UIInterfaceOrientationIsPortrait(orient)) {
+        widthForText = 260.f;
+    }else {
+        widthForText = 400.f;
+    }
+    
+	CGSize size    = [ThreadCell calcTextHeight:aMsg withinWidth:widthForText];
 
 	size.height += 5;
 	
@@ -108,6 +118,12 @@
   [messages release];
   [super dealloc];
 }
+
+
+- (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+    return YES;
+}
+
 
 @end
 
