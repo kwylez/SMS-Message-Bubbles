@@ -1,989 +1,0 @@
-TMessageBubbles
-v7
-r0
-t302563547.299955
-cCheck dependencies
-cProcessInfoPlistFile /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/Info.plist MessageBubbles-Info.plist
-cCompileXIB /Users/coryw/Desktop/git/MessageBubbles/MainWindow.xib
-cCompileXIB /Users/coryw/Desktop/git/MessageBubbles/MessageBubblesViewController.xib
-cCpResource build/Debug-iphonesimulator/MessageBubbles.app/aqua.png aqua.png
-cCpResource build/Debug-iphonesimulator/MessageBubbles.app/purple.png purple.png
-cProcessPCH /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-ehoeyjnrnktdcyacgbsiizmiawux/MessageBubbles_Prefix.pch.gch MessageBubbles_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/main.o /Users/coryw/Desktop/git/MessageBubbles/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesAppDelegate.o /Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesViewController.o /Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCell.o /Users/coryw/Desktop/git/MessageBubbles/Classes/ThreadCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles normal i386
-cGenerateDSYMFile /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app.dSYM /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles
-cTouch /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C44B2770000000000000132
-t1279570551
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesAppDelegate.h
-c000000004C1A3AD80000000000000203
-t1276787416
-s515
-i<UIKit/UIKit.h>
-
-N/Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesAppDelegate.m
-c000000004C1D12BE0000000000000A9E
-t1276973758
-s2718
-i"MessageBubblesAppDelegate.h"
-i"MessageBubblesViewController.h"
-
-N/Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesViewController.h
-c000000004C1BE030000000000000015E
-t1276895280
-s350
-i<UIKit/UIKit.h>
-i"ThreadCell.h"
-
-N/Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesViewController.m
-c000000004C1D15AF0000000000000C84
-t1276974511
-s3204
-i"MessageBubblesViewController.h"
-
-N/Users/coryw/Desktop/git/MessageBubbles/Classes/ThreadCell.h
-c000000004C1BDF86000000000000018E
-t1276895110
-s398
-i<UIKit/UIKit.h>
-
-N/Users/coryw/Desktop/git/MessageBubbles/Classes/ThreadCell.m
-c000000004C1D166E0000000000000819
-t1276974702
-s2073
-i"ThreadCell.h"
-
-N/Users/coryw/Desktop/git/MessageBubbles/MainWindow.xib
-c000000004C1A3AD80000000000004E7D
-t1276787416
-s20093
-
-N/Users/coryw/Desktop/git/MessageBubbles/MessageBubblesViewController.xib
-c000000004C1A3BD800000000000041B5
-t1276787672
-s16821
-
-N/Users/coryw/Desktop/git/MessageBubbles/MessageBubbles_Prefix.pch
-c000000004C1A3AD800000000000000C5
-t1276787416
-s197
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/coryw/Desktop/git/MessageBubbles/aqua.png
-c000000004C1A4660000000000000054B
-t1276790368
-s1355
-
-N/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app
-t1280870747
-s306
-
-N/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app.dSYM
-t1280870747
-s102
-
-N/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/Info.plist
-t1276790626
-s619
-
-N/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MainWindow.nib
-t1276790627
-s1137
-
-N/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles
-t1280870747
-s25944
-
-N/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubblesViewController.nib
-t1276790627
-s980
-
-N/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/PkgInfo
-t1276790626
-s8
-
-N/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/aqua.png
-t1276790627
-s1355
-
-N/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/purple.png
-t1276790627
-s1266
-
-N/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubbles.LinkFileList
-c000000004C58895A0000000000000257
-t1280870746
-s599
-
-N/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesAppDelegate.o
-t1280870747
-s48428
-
-N/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesViewController.o
-t1280870747
-s46820
-
-N/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCell.o
-t1280870747
-s43692
-
-N/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/main.o
-t1280870747
-s6304
-
-N/Users/coryw/Desktop/git/MessageBubbles/main.m
-c000000004C1A3AD8000000000000016A
-t1276787416
-s362
-i<UIKit/UIKit.h>
-
-N/Users/coryw/Desktop/git/MessageBubbles/purple.png
-c000000004C1A466B00000000000004F2
-t1276790379
-s1266
-
-N/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesAppDelegate.h
-c000000004C1A3AD80000000000000203
-t1276787416
-s515
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesAppDelegate.m
-c000000004C1A3AD80000000000000AA8
-t1276787416
-s2728
-i"MessageBubblesAppDelegate.h"
-i"MessageBubblesViewController.h"
-
-N/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.h
-c000000004C1BE030000000000000015E
-t1276895280
-s350
-i<UIKit/UIKit.h>
-i"ThreadCell.h"
-
-N/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m
-c000000004C1BEACC0000000000000E63
-t1276897996
-s3683
-i"MessageBubblesViewController.h"
-
-N/Users/cwiles/Desktop/MessageBubbles/Classes/MsgBubbleView.h
-c000000004C1BBDC600000000000000D5
-t1276886470
-s213
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/Desktop/MessageBubbles/Classes/MsgBubbleView.m
-c000000004C1BBDC60000000000000249
-t1276886470
-s585
-i"MsgBubbleView.h"
-
-N/Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCell.h
-c000000004C1BDF86000000000000018E
-t1276895110
-s398
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCell.m
-c000000004C1BE7FF0000000000000813
-t1276897279
-s2067
-i"ThreadCell.h"
-
-N/Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCellView.h
-c000000004C1A93DF000000000000014E
-t1276810207
-s334
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCellView.m
-c000000004C1BBEBE000000000000071A
-t1276886718
-s1818
-i"ThreadCellView.h"
-
-N/Users/cwiles/Desktop/MessageBubbles/MainWindow.xib
-c000000004C1A3AD80000000000004E7D
-t1276787416
-s20093
-
-N/Users/cwiles/Desktop/MessageBubbles/MessageBubblesViewController.xib
-c000000004C1A3BD800000000000041B5
-t1276787672
-s16821
-
-N/Users/cwiles/Desktop/MessageBubbles/MessageBubbles_Prefix.pch
-c000000004C1A3AD800000000000000C5
-t1276787416
-s197
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/Desktop/MessageBubbles/aqua.png
-c000000004C1A4660000000000000054B
-t1276790368
-s1355
-
-N/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app
-t1276897997
-s306
-
-N/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app.dSYM
-t1276897997
-s102
-
-N/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/Info.plist
-t1276790626
-s619
-
-N/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MainWindow.nib
-t1276790627
-s1137
-
-N/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles
-t1276897997
-s26124
-
-N/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubblesViewController.nib
-t1276790627
-s980
-
-N/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/PkgInfo
-t1276790626
-s8
-
-N/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/aqua.png
-t1276790627
-s1355
-
-N/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/purple.png
-t1276790627
-s1266
-
-N/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubbles.LinkFileList
-c000000004C1BE029000000000000024B
-t1276895273
-s587
-
-N/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesAppDelegate.o
-t1276895281
-s48424
-
-N/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesViewController.o
-t1276897997
-s47256
-
-N/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MsgBubbleView.o
-t2
-s0
-
-N/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCell.o
-t1276897321
-s43688
-
-N/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCellView.o
-t1276886721
-s41100
-
-N/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/main.o
-t1276790628
-s6300
-
-N/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/MessageBubblesAppDelegate.plist
-t1276799057
-s276
-
-N/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/MessageBubblesViewController.plist
-t1276799057
-s36923
-
-N/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/ThreadCell.plist
-t1276799057
-s276
-
-N/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/ThreadCellView.plist
-t2
-s0
-
-N/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/main.plist
-t1276799057
-s276
-
-N/Users/cwiles/Desktop/MessageBubbles/main.m
-c000000004C1A3AD8000000000000016A
-t1276787416
-s362
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/Desktop/MessageBubbles/purple.png
-c000000004C1A466B00000000000004F2
-t1276790379
-s1266
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesAppDelegate.h
-c000000004C1A3AD80000000000000203
-t1276787416
-s515
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesAppDelegate.m
-c000000004C1D12BE0000000000000A9E
-t1276973758
-s2718
-i"MessageBubblesAppDelegate.h"
-i"MessageBubblesViewController.h"
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesViewController.h
-c000000004C1BE030000000000000015E
-t1276895280
-s350
-i<UIKit/UIKit.h>
-i"ThreadCell.h"
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesViewController.m
-c000000004C1D15AF0000000000000C84
-t1276974511
-s3204
-i"MessageBubblesViewController.h"
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/Classes/ThreadCell.h
-c000000004C1BDF86000000000000018E
-t1276895110
-s398
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/Classes/ThreadCell.m
-c000000004C1D166E0000000000000819
-t1276974702
-s2073
-i"ThreadCell.h"
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/MainWindow.xib
-c000000004C1A3AD80000000000004E7D
-t1276787416
-s20093
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/MessageBubblesViewController.xib
-c000000004C1A3BD800000000000041B5
-t1276787672
-s16821
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/MessageBubbles_Prefix.pch
-c000000004C1A3AD800000000000000C5
-t1276787416
-s197
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/aqua.png
-c000000004C1A4660000000000000054B
-t1276790368
-s1355
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app
-t1276974784
-s306
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app.dSYM
-t1276974784
-s102
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/Info.plist
-t1276790626
-s619
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MainWindow.nib
-t1276790627
-s1137
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles
-t1276974784
-s25984
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubblesViewController.nib
-t1276790627
-s980
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/PkgInfo
-t1276790626
-s8
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/aqua.png
-t1276790627
-s1355
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/purple.png
-t1276790627
-s1266
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubbles.LinkFileList
-c000000004C1D12B4000000000000026B
-t1276973748
-s619
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesAppDelegate.o
-t1276974360
-s48440
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesViewController.o
-t1276974546
-s46832
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCell.o
-t1276974784
-s43704
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/main.o
-t1276973749
-s6316
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/MessageBubblesAppDelegate.plist
-t1276974360
-s276
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/MessageBubblesViewController.plist
-t1276974428
-s276
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/ThreadCell.plist
-t1276974360
-s276
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/main.plist
-t1276974360
-s276
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/main.m
-c000000004C1A3AD8000000000000016A
-t1276787416
-s362
-i<UIKit/UIKit.h>
-
-N/Users/cwiles/iPhone Projects/MessageBubbles/purple.png
-c000000004C1A466B00000000000004F2
-t1276790379
-s1266
-
-N/var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-ehoeyjnrnktdcyacgbsiizmiawux/MessageBubbles_Prefix.pch.gch
-t1280870747
-s15232016
-
-N/var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-ccxwgctlxiiwnmgtnxhcxckreihh/MessageBubbles_Prefix.pch.gch
-t1276790628
-s15232016
-
-N/var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-hkhaecqwuxtfkcbvdsupnsbgmyxo/MessageBubbles_Prefix.pch.pth
-t1276799057
-s2690412
-
-N/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-bwjjdtkqietxlwdsqhqkffulqzkx/MessageBubbles_Prefix.pch.gch
-t1276973749
-s15232016
-
-N/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-chfnvnrwhbekrvaljzzidybmumfn/MessageBubbles_Prefix.pch.pth
-t1276974359
-s2690448
-
-NMessageBubbles-Info.plist
-c000000004C1A3AD8000000000000038D
-t1276787416
-s909
-
-CAnalyze "/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesAppDelegate.m"
-s298667160.265027
-e298667160.340645
-r1
-xAnalyze
-x/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesAppDelegate.m
-lSLF07#2@88"Analyze /Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesAppDelegate.m298667160#298667160#0(0"0(0#0#80"/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesAppDelegate.m8603955424#2188"    cd "/Users/cwiles/iPhone Projects/MessageBubbles"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-chfnvnrwhbekrvaljzzidybmumfn/MessageBubbles_Prefix.pch --analyze "/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesAppDelegate.m" -o "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/MessageBubblesAppDelegate.plist"0#
-
-CAnalyze "/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesViewController.m"
-s298667228.714416
-e298667228.774289
-r1
-xAnalyze
-x/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesViewController.m
-lSLF07#2@91"Analyze /Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesViewController.m298667228#298667228#0(0"0(0#0#83"/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesViewController.m8615258080#2194"    cd "/Users/cwiles/iPhone Projects/MessageBubbles"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-chfnvnrwhbekrvaljzzidybmumfn/MessageBubbles_Prefix.pch --analyze "/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesViewController.m" -o "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/MessageBubblesViewController.plist"0#
-
-CAnalyze "/Users/cwiles/iPhone Projects/MessageBubbles/Classes/ThreadCell.m"
-s298667160.335782
-e298667160.385069
-r1
-xAnalyze
-x/Users/cwiles/iPhone Projects/MessageBubbles/Classes/ThreadCell.m
-lSLF07#2@73"Analyze /Users/cwiles/iPhone Projects/MessageBubbles/Classes/ThreadCell.m298667160#298667160#0(0"0(0#0#65"/Users/cwiles/iPhone Projects/MessageBubbles/Classes/ThreadCell.m8605893440#2158"    cd "/Users/cwiles/iPhone Projects/MessageBubbles"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-chfnvnrwhbekrvaljzzidybmumfn/MessageBubbles_Prefix.pch --analyze "/Users/cwiles/iPhone Projects/MessageBubbles/Classes/ThreadCell.m" -o "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/ThreadCell.plist"0#
-
-CAnalyze "/Users/cwiles/iPhone Projects/MessageBubbles/main.m"
-s298667160.166691
-e298667160.270671
-r1
-xAnalyze
-x/Users/cwiles/iPhone Projects/MessageBubbles/main.m
-lSLF07#2@59"Analyze /Users/cwiles/iPhone Projects/MessageBubbles/main.m298667160#298667160#0(0"0(0#0#51"/Users/cwiles/iPhone Projects/MessageBubbles/main.m8600068800#2138"    cd "/Users/cwiles/iPhone Projects/MessageBubbles"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-chfnvnrwhbekrvaljzzidybmumfn/MessageBubbles_Prefix.pch --analyze "/Users/cwiles/iPhone Projects/MessageBubbles/main.m" -o "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/main.plist"0#
-
-CAnalyze /Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesAppDelegate.m
-s298491857.450606
-e298491857.548016
-r1
-xAnalyze
-x/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesAppDelegate.m
-lSLF07#2@80"Analyze /Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesAppDelegate.m298491857#298491857#0(0"0(0#0#72"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesAppDelegate.m8604335040#2078"    cd /Users/cwiles/Desktop/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-hkhaecqwuxtfkcbvdsupnsbgmyxo/MessageBubbles_Prefix.pch --analyze /Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesAppDelegate.m -o /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/MessageBubblesAppDelegate.plist0#
-
-CAnalyze /Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m
-s298491857.548114
-e298491857.657995
-r1
-xAnalyze
-x/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m
-o/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m:115:27: warning: Potential leak of an object allocated on line 115
-o                 UIImageView *newImage = [[UIImageView alloc] initWithFrame:CGRectMake(270.0-size.width, 0.0, size.width+35, result+10)];
-o                                         ^
-o/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m:104:20: warning: Potential leak of an object allocated on line 104
-o                 UIView *newView =[[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, cell.frame.size.width, cell.frame.size.height)];
-o                                  ^
-o/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m:103:27: warning: Potential leak of an object allocated on line 103
-o                 UIImageView *newImage = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, size.width+35, result+10)];
-o                                         ^
-o/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m:116:20: warning: Potential leak of an object allocated on line 116
-o                 UIView *newView =[[UIView alloc] initWithFrame:CGRectMake(0, 0.0, cell.frame.size.width, cell.frame.size.height)];
-o                                  ^
-o4 warnings generated.
-lSLF07#2@83"Analyze /Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298491857#298491857#0(1281"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m:115:27: warning: Potential leak of an object allocated on line 115                 UIImageView *newImage = [[UIImageView alloc] initWithFrame:CGRectMake(270.0-size.width, 0.0, size.width+35, result+10)];                                         ^/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m:104:20: warning: Potential leak of an object allocated on line 104                 UIView *newView =[[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, cell.frame.size.width, cell.frame.size.height)];                                  ^/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m:103:27: warning: Potential leak of an object allocated on line 103                 UIImageView *newImage = [[UIImageView alloc] initWithFrame:CGRectMake(0.0, 0.0, size.width+35, result+10)];                                         ^/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m:116:20: warning: Potential leak of an object allocated on line 116                 UIView *newView =[[UIView alloc] initWithFrame:CGRectMake(0, 0.0, cell.frame.size.width, cell.frame.size.height)];                                  ^4 warnings generated.4(0@49"Potential leak of an object allocated on line 103298491857#18446744073709551615#0#9(17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#67#3#67#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#71#3#71#3#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#71#3#71#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#79#3#79#3#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#79#3#79#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#98#2#98#2#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#98#2#98#2#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#100#3#100#3#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#100#3#100#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#103#3#103#3#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#103#3#103#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#103#27#103#108#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#103#27#0#0#0"1(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#103#27#103#108#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#103#27#103#108#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#108#3#108#3#21@114"Object allocated on line 103 is no longer referenced after this point and has a retain count of +1 (object leaked)298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#108#3#0#0#0"1(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#108#3#108#3#114"Object allocated on line 103 is no longer referenced after this point and has a retain count of +1 (object leaked)6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#108#3#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0@49"Potential leak of an object allocated on line 115298491857#18446744073709551615#0#9(17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#67#3#67#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#71#3#71#3#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#71#3#71#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#79#3#79#3#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#79#3#79#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#98#2#98#2#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#98#2#98#2#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#112#5#112#5#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#112#5#112#5#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#115#3#115#3#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#115#3#115#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#115#27#115#121#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#115#27#0#0#0"1(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#115#27#115#121#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#115#27#115#121#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#120#3#120#3#21@114"Object allocated on line 115 is no longer referenced after this point and has a retain count of +1 (object leaked)298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#120#3#0#0#0"1(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#120#3#120#3#114"Object allocated on line 115 is no longer referenced after this point and has a retain count of +1 (object leaked)6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#120#3#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0@49"Potential leak of an object allocated on line 104298491857#18446744073709551615#0#9(17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#67#3#67#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#71#3#71#3#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#71#3#71#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#79#3#79#3#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#79#3#79#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#98#2#98#2#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#98#2#98#2#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#100#3#100#3#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#100#3#100#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#104#3#104#3#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#104#3#104#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#104#20#104#117#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#104#20#0#0#0"1(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#104#20#104#117#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#104#20#104#117#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#124#3#124#8#21@114"Object allocated on line 104 is no longer referenced after this point and has a retain count of +1 (object leaked)298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#124#3#0#0#0"1(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#124#3#124#8#114"Object allocated on line 104 is no longer referenced after this point and has a retain count of +1 (object leaked)6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#124#3#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0@49"Potential leak of an object allocated on line 116298491857#18446744073709551615#0#9(17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#67#3#67#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#71#3#71#3#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#71#3#71#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#79#3#79#3#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#79#3#79#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#98#2#98#2#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#98#2#98#2#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#112#5#112#5#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#112#5#112#5#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#116#3#116#3#17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#116#3#116#3#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#116#20#116#115#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#116#20#0#0#0"1(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#116#20#116#115#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#0"0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#0#0#0#0#1(3@6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#116#20#116#115#6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#124#3#124#8#21@114"Object allocated on line 116 is no longer referenced after this point and has a retain count of +1 (object leaked)298491857#18446744073709551615#0#0(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#124#3#0#0#0"1(6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#124#3#124#8#114"Object allocated on line 116 is no longer referenced after this point and has a retain count of +1 (object leaked)6@75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298484171#124#3#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0#0#75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m8603929472#2084"    cd /Users/cwiles/Desktop/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-hkhaecqwuxtfkcbvdsupnsbgmyxo/MessageBubbles_Prefix.pch --analyze /Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m -o /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/MessageBubblesViewController.plist0#
-
-CAnalyze /Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCell.m
-s298491857.569705
-e298491857.675885
-r1
-xAnalyze
-x/Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCell.m
-lSLF07#2@65"Analyze /Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCell.m298491857#298491857#0(0"0(0#0#57"/Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCell.m8606291488#2048"    cd /Users/cwiles/Desktop/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-hkhaecqwuxtfkcbvdsupnsbgmyxo/MessageBubbles_Prefix.pch --analyze /Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCell.m -o /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/ThreadCell.plist0#
-
-CAnalyze /Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCellView.m
-r0
-
-CAnalyze /Users/cwiles/Desktop/MessageBubbles/main.m
-s298491857.449342
-e298491857.569613
-r1
-xAnalyze
-x/Users/cwiles/Desktop/MessageBubbles/main.m
-lSLF07#2@51"Analyze /Users/cwiles/Desktop/MessageBubbles/main.m298491857#298491857#0(0"0(0#0#43"/Users/cwiles/Desktop/MessageBubbles/main.m8604459360#2028"    cd /Users/cwiles/Desktop/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-hkhaecqwuxtfkcbvdsupnsbgmyxo/MessageBubbles_Prefix.pch --analyze /Users/cwiles/Desktop/MessageBubbles/main.m -o /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/StaticAnalyzer/normal/i386/main.plist0#
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies302563546#302563546#0(0"0(0#1#0"8604595616#0"0#
-
-CCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesAppDelegate.o "/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s298667160.002021
-e298667160.166495
-r1
-xCompileC
-xbuild/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesAppDelegate.o
-x/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesAppDelegate.m298667160#298667160#0(0"0(0#0#80"/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesAppDelegate.m8606129536#2179"    cd "/Users/cwiles/iPhone Projects/MessageBubbles"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-bwjjdtkqietxlwdsqhqkffulqzkx/MessageBubbles_Prefix.pch -c "/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesAppDelegate.m" -o "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesAppDelegate.o"0#
-
-CCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesAppDelegate.o /Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302563547.060741
-e302563547.139360
-r1
-xCompileC
-xbuild/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesAppDelegate.o
-x/Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesAppDelegate.m302563547#302563547#0(0"0(0#0#75"/Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesAppDelegate.m8608106176#2102"    cd /Users/coryw/Desktop/git/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator -I/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-ehoeyjnrnktdcyacgbsiizmiawux/MessageBubbles_Prefix.pch -c /Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesAppDelegate.m -o /Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesAppDelegate.o0#
-
-CCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesAppDelegate.o /Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s298588081.163557
-e298588081.280085
-r1
-xCompileC
-xbuild/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesAppDelegate.o
-x/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesAppDelegate.m298588081#298588081#0(0"0(0#0#72"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesAppDelegate.m8617140832#2069"    cd /Users/cwiles/Desktop/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-ccxwgctlxiiwnmgtnxhcxckreihh/MessageBubbles_Prefix.pch -c /Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesAppDelegate.m -o /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesAppDelegate.o0#
-
-CCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesViewController.o "/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s298667346.096177
-e298667346.344029
-r1
-xCompileC
-xbuild/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesViewController.o
-x/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesViewController.m298667346#298667346#0(0"0(0#0#83"/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesViewController.m8613607392#2185"    cd "/Users/cwiles/iPhone Projects/MessageBubbles"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-bwjjdtkqietxlwdsqhqkffulqzkx/MessageBubbles_Prefix.pch -c "/Users/cwiles/iPhone Projects/MessageBubbles/Classes/MessageBubblesViewController.m" -o "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesViewController.o"0#
-
-CCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesViewController.o /Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302563547.113666
-e302563547.213227
-r1
-xCompileC
-xbuild/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesViewController.o
-x/Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesViewController.m302563547#302563547#0(0"0(0#0#78"/Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesViewController.m8607542976#2108"    cd /Users/coryw/Desktop/git/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator -I/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-ehoeyjnrnktdcyacgbsiizmiawux/MessageBubbles_Prefix.pch -c /Users/coryw/Desktop/git/MessageBubbles/Classes/MessageBubblesViewController.m -o /Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesViewController.o0#
-
-CCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesViewController.o /Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s298590797.226704
-e298590797.410388
-r1
-xCompileC
-xbuild/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesViewController.o
-x/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m298590797#298590797#0(0"0(0#0#75"/Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m8626262880#2075"    cd /Users/cwiles/Desktop/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-ccxwgctlxiiwnmgtnxhcxckreihh/MessageBubbles_Prefix.pch -c /Users/cwiles/Desktop/MessageBubbles/Classes/MessageBubblesViewController.m -o /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubblesViewController.o0#
-
-CCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MsgBubbleView.o /Users/cwiles/Desktop/MessageBubbles/Classes/MsgBubbleView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCell.o "/Users/cwiles/iPhone Projects/MessageBubbles/Classes/ThreadCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s298667584.203283
-e298667584.354705
-r1
-xCompileC
-xbuild/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCell.o
-x/Users/cwiles/iPhone Projects/MessageBubbles/Classes/ThreadCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/cwiles/iPhone Projects/MessageBubbles/Classes/ThreadCell.m298667584#298667584#0(0"0(0#0#65"/Users/cwiles/iPhone Projects/MessageBubbles/Classes/ThreadCell.m8606495840#2149"    cd "/Users/cwiles/iPhone Projects/MessageBubbles"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-bwjjdtkqietxlwdsqhqkffulqzkx/MessageBubbles_Prefix.pch -c "/Users/cwiles/iPhone Projects/MessageBubbles/Classes/ThreadCell.m" -o "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCell.o"0#
-
-CCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCell.o /Users/coryw/Desktop/git/MessageBubbles/Classes/ThreadCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302563547.139445
-e302563547.239230
-r1
-xCompileC
-xbuild/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCell.o
-x/Users/coryw/Desktop/git/MessageBubbles/Classes/ThreadCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/coryw/Desktop/git/MessageBubbles/Classes/ThreadCell.m302563547#302563547#0(0"0(0#0#60"/Users/coryw/Desktop/git/MessageBubbles/Classes/ThreadCell.m8603740032#2072"    cd /Users/coryw/Desktop/git/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator -I/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-ehoeyjnrnktdcyacgbsiizmiawux/MessageBubbles_Prefix.pch -c /Users/coryw/Desktop/git/MessageBubbles/Classes/ThreadCell.m -o /Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCell.o0#
-
-CCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCell.o /Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s298590120.875162
-e298590121.077232
-r1
-xCompileC
-xbuild/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCell.o
-x/Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCell.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCell.m298590120#298590121#0(0"0(0#0#57"/Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCell.m8631319104#2039"    cd /Users/cwiles/Desktop/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-ccxwgctlxiiwnmgtnxhcxckreihh/MessageBubbles_Prefix.pch -c /Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCell.m -o /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCell.o0#
-
-CCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCellView.o /Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCellView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s298579521.214766
-e298579521.377458
-r1
-xCompileC
-xbuild/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCellView.o
-x/Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCellView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCellView.m298579521#298579521#0(0"0(0#0#61"/Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCellView.m8620034624#2047"    cd /Users/cwiles/Desktop/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-ccxwgctlxiiwnmgtnxhcxckreihh/MessageBubbles_Prefix.pch -c /Users/cwiles/Desktop/MessageBubbles/Classes/ThreadCellView.m -o /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/ThreadCellView.o0#
-
-CCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/main.o "/Users/cwiles/iPhone Projects/MessageBubbles/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s298666549.144056
-e298666549.315779
-r1
-xCompileC
-xbuild/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/main.o
-x/Users/cwiles/iPhone Projects/MessageBubbles/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/cwiles/iPhone Projects/MessageBubbles/main.m298666549#298666549#0(0"0(0#0#51"/Users/cwiles/iPhone Projects/MessageBubbles/main.m8602447680#2129"    cd "/Users/cwiles/iPhone Projects/MessageBubbles"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources" -include /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-bwjjdtkqietxlwdsqhqkffulqzkx/MessageBubbles_Prefix.pch -c "/Users/cwiles/iPhone Projects/MessageBubbles/main.m" -o "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/main.o"0#
-
-CCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/main.o /Users/coryw/Desktop/git/MessageBubbles/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s302563547.059920
-e302563547.113576
-r1
-xCompileC
-xbuild/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/main.o
-x/Users/coryw/Desktop/git/MessageBubbles/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/coryw/Desktop/git/MessageBubbles/main.m302563547#302563547#0(0"0(0#0#46"/Users/coryw/Desktop/git/MessageBubbles/main.m8608408128#2052"    cd /Users/coryw/Desktop/git/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator -I/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -include /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-ehoeyjnrnktdcyacgbsiizmiawux/MessageBubbles_Prefix.pch -c /Users/coryw/Desktop/git/MessageBubbles/main.m -o /Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/main.o0#
-
-CCompileC build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/main.o /Users/cwiles/Desktop/MessageBubbles/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s298483428.598349
-e298483428.665030
-r1
-xCompileC
-xbuild/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/main.o
-x/Users/cwiles/Desktop/MessageBubbles/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@51"Compile /Users/cwiles/Desktop/MessageBubbles/main.m298483428#298483428#0(0"0(0#0#43"/Users/cwiles/Desktop/MessageBubbles/main.m8617938720#2019"    cd /Users/cwiles/Desktop/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -include /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-ccxwgctlxiiwnmgtnxhcxckreihh/MessageBubbles_Prefix.pch -c /Users/cwiles/Desktop/MessageBubbles/main.m -o /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/main.o0#
-
-CCompileXIB "/Users/cwiles/iPhone Projects/MessageBubbles/MainWindow.xib"
-r0
-
-CCompileXIB "/Users/cwiles/iPhone Projects/MessageBubbles/MessageBubblesViewController.xib"
-r0
-
-CCompileXIB /Users/coryw/Desktop/git/MessageBubbles/MainWindow.xib
-r0
-
-CCompileXIB /Users/coryw/Desktop/git/MessageBubbles/MessageBubblesViewController.xib
-r0
-
-CCompileXIB /Users/cwiles/Desktop/MessageBubbles/MainWindow.xib
-s298483426.454449
-e298483427.099512
-r1
-xCompileXIB
-x/Users/cwiles/Desktop/MessageBubbles/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib298483426#298483427#0(0"0(0#0#51"/Users/cwiles/Desktop/MessageBubbles/MainWindow.xib8618138080#571"    cd /Users/cwiles/Desktop/MessageBubbles    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MainWindow.nib /Users/cwiles/Desktop/MessageBubbles/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /Users/cwiles/Desktop/MessageBubbles/MessageBubblesViewController.xib
-s298483426.455268
-e298483427.111484
-r1
-xCompileXIB
-x/Users/cwiles/Desktop/MessageBubbles/MessageBubblesViewController.xib
-lSLF07#2@43"CompileXIB MessageBubblesViewController.xib298483426#298483427#0(0"0(0#0#69"/Users/cwiles/Desktop/MessageBubbles/MessageBubblesViewController.xib8617966400#607"    cd /Users/cwiles/Desktop/MessageBubbles    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubblesViewController.nib /Users/cwiles/Desktop/MessageBubbles/MessageBubblesViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCpResource build/Debug-iphonesimulator/MessageBubbles.app/aqua.png aqua.png
-s298483427.099610
-e298483427.106754
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MessageBubbles.app/aqua.png
-xaqua.png
-lSLF07#2@13"Copy aqua.png298483427#298483427#0(0"0(0#0#45"/Users/cwiles/Desktop/MessageBubbles/aqua.png8617578848#453"    cd /Users/cwiles/Desktop/MessageBubbles    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/cwiles/Desktop/MessageBubbles/aqua.png /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app0#
-
-CCpResource build/Debug-iphonesimulator/MessageBubbles.app/purple.png purple.png
-s298483427.100932
-e298483427.106918
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/MessageBubbles.app/purple.png
-xpurple.png
-lSLF07#2@15"Copy purple.png298483427#298483427#0(0"0(0#0#47"/Users/cwiles/Desktop/MessageBubbles/purple.png8617424576#455"    cd /Users/cwiles/Desktop/MessageBubbles    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/cwiles/Desktop/MessageBubbles/purple.png /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app0#
-
-CGenerateDSYMFile "/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app.dSYM" "/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles"
-s298667584.380475
-e298667584.400696
-r1
-xGenerateDSYMFile
-x/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app.dSYM
-x/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles
-lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/MessageBubbles.app.dSYM build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles298667584#298667584#0(0"0(0#0#106"/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles8613415296#428"    cd "/Users/cwiles/iPhone Projects/MessageBubbles"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles" -o "/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app.dSYM"0#
-
-CGenerateDSYMFile /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app.dSYM /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles
-s302563547.282333
-e302563547.297704
-r1
-xGenerateDSYMFile
-x/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app.dSYM
-x/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles
-lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/MessageBubbles.app.dSYM build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles302563547#302563547#0(0"0(0#0#101"/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles8609490048#407"    cd /Users/coryw/Desktop/git/MessageBubbles    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles -o /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app.dSYM0#
-
-CGenerateDSYMFile /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app.dSYM /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles
-s298590797.439623
-e298590797.464693
-r1
-xGenerateDSYMFile
-x/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app.dSYM
-x/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles
-lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/MessageBubbles.app.dSYM build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles298590797#298590797#0(0"0(0#0#98"/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles8628783200#398"    cd /Users/cwiles/Desktop/MessageBubbles    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles -o /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app.dSYM0#
-
-CLd "/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles" normal i386
-s298667584.354799
-e298667584.380377
-r1
-xLd
-x/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles
-xnormal
-xi386
-lSLF07#2@111"Link /Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles298667584#298667584#0(0"0(0#0#0"8615359264#975"    cd "/Users/cwiles/iPhone Projects/MessageBubbles"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk "-L/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator" "-F/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator" -filelist "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubbles.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles"0#
-
-CLd /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles normal i386
-s302563547.239304
-e302563547.282244
-r1
-xLd
-x/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles
-xnormal
-xi386
-lSLF07#2@106"Link /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles302563547#302563547#0(0"0(0#0#0"8607100384#940"    cd /Users/coryw/Desktop/git/MessageBubbles    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator -F/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator -filelist /Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubbles.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles0#
-
-CLd /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles normal i386
-s298590797.410508
-e298590797.439431
-r1
-xLd
-x/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles
-xnormal
-xi386
-lSLF07#2@103"Link /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles298590797#298590797#0(0"0(0#0#0"8629240896#925"    cd /Users/cwiles/Desktop/MessageBubbles    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator -F/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator -filelist /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/Objects-normal/i386/MessageBubbles.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/MessageBubbles0#
-
-CProcessInfoPlistFile "/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/Info.plist" MessageBubbles-Info.plist
-r0
-
-CProcessInfoPlistFile /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/Info.plist MessageBubbles-Info.plist
-r0
-
-CProcessInfoPlistFile /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/Info.plist MessageBubbles-Info.plist
-s298483426.442482
-e298483426.454341
-r1
-xProcessInfoPlistFile
-x/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/Info.plist
-xMessageBubbles-Info.plist
-lSLF07#2@33"Process MessageBubbles-Info.plist298483426#298483426#0(0"0(0#0#62"/Users/cwiles/Desktop/MessageBubbles/MessageBubbles-Info.plist8618516640#494"    cd /Users/cwiles/Desktop/MessageBubbles    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MessageBubbles-Info.plist -genpkginfo /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app/Info.plist0#
-
-CProcessPCH /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-ehoeyjnrnktdcyacgbsiizmiawux/MessageBubbles_Prefix.pch.gch MessageBubbles_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s302563546.442092
-e302563547.059837
-r1
-xProcessPCH
-x/var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-ehoeyjnrnktdcyacgbsiizmiawux/MessageBubbles_Prefix.pch.gch
-xMessageBubbles_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@36"Precompile MessageBubbles_Prefix.pch302563546#302563547#0(0"0(0#0#65"/Users/coryw/Desktop/git/MessageBubbles/MessageBubbles_Prefix.pch8609378592#1936"    cd /Users/coryw/Desktop/git/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator -I/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/coryw/Desktop/git/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -c /Users/coryw/Desktop/git/MessageBubbles/MessageBubbles_Prefix.pch -o /var/folders/gk/gk7imV+WFM0m-0lUybhU6++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-ehoeyjnrnktdcyacgbsiizmiawux/MessageBubbles_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-ccxwgctlxiiwnmgtnxhcxckreihh/MessageBubbles_Prefix.pch.gch MessageBubbles_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s298483427.112289
-e298483428.598111
-r1
-xProcessPCH
-x/var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-ccxwgctlxiiwnmgtnxhcxckreihh/MessageBubbles_Prefix.pch.gch
-xMessageBubbles_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@36"Precompile MessageBubbles_Prefix.pch298483427#298483428#0(0"0(0#0#62"/Users/cwiles/Desktop/MessageBubbles/MessageBubbles_Prefix.pch8617357024#1906"    cd /Users/cwiles/Desktop/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -c /Users/cwiles/Desktop/MessageBubbles/MessageBubbles_Prefix.pch -o /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-ccxwgctlxiiwnmgtnxhcxckreihh/MessageBubbles_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-hkhaecqwuxtfkcbvdsupnsbgmyxo/MessageBubbles_Prefix.pch.pth MessageBubbles_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
-s298491856.714729
-e298491857.448817
-r1
-xProcessPCH
-x/var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-hkhaecqwuxtfkcbvdsupnsbgmyxo/MessageBubbles_Prefix.pch.pth
-xMessageBubbles_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.analyzer
-lSLF07#2@36"Precompile MessageBubbles_Prefix.pch298491856#298491857#0(0"0(0#0#62"/Users/cwiles/Desktop/MessageBubbles/MessageBubbles_Prefix.pch7094649791285654528#1897"    cd /Users/cwiles/Desktop/MessageBubbles    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap -iquote /Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap -F/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator -I/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/include -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386 -I/Users/cwiles/Desktop/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources -c /Users/cwiles/Desktop/MessageBubbles/MessageBubbles_Prefix.pch -o /var/folders/oW/oWGk0XXrG5CPunTFGS-jhU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MessageBubbles_Prefix-hkhaecqwuxtfkcbvdsupnsbgmyxo/MessageBubbles_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-bwjjdtkqietxlwdsqhqkffulqzkx/MessageBubbles_Prefix.pch.gch MessageBubbles_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s298666548.075142
-e298666549.143949
-r1
-xProcessPCH
-x/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-bwjjdtkqietxlwdsqhqkffulqzkx/MessageBubbles_Prefix.pch.gch
-xMessageBubbles_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@36"Precompile MessageBubbles_Prefix.pch298666548#298666549#0(0"0(0#0#70"/Users/cwiles/iPhone Projects/MessageBubbles/MessageBubbles_Prefix.pch7094649791285654528#2006"    cd "/Users/cwiles/iPhone Projects/MessageBubbles"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources" -c "/Users/cwiles/iPhone Projects/MessageBubbles/MessageBubbles_Prefix.pch" -o /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-bwjjdtkqietxlwdsqhqkffulqzkx/MessageBubbles_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-chfnvnrwhbekrvaljzzidybmumfn/MessageBubbles_Prefix.pch.pth MessageBubbles_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
-s298667159.536350
-e298667160.001816
-r1
-xProcessPCH
-x/var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-chfnvnrwhbekrvaljzzidybmumfn/MessageBubbles_Prefix.pch.pth
-xMessageBubbles_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.analyzer
-lSLF07#2@36"Precompile MessageBubbles_Prefix.pch298667159#298667160#0(0"0(0#0#70"/Users/cwiles/iPhone Projects/MessageBubbles/MessageBubbles_Prefix.pch7094649791285654528#1997"    cd "/Users/cwiles/iPhone Projects/MessageBubbles"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-generated-files.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-own-target-headers.hmap" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-all-target-headers.hmap" -iquote "/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/MessageBubbles-project-headers.hmap" "-F/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/include" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources/i386" "-I/Users/cwiles/iPhone Projects/MessageBubbles/build/MessageBubbles.build/Debug-iphonesimulator/MessageBubbles.build/DerivedSources" -c "/Users/cwiles/iPhone Projects/MessageBubbles/MessageBubbles_Prefix.pch" -o /var/folders/q6/q6B2V8mBEPWFI08iPlrbN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MessageBubbles_Prefix-chfnvnrwhbekrvaljzzidybmumfn/MessageBubbles_Prefix.pch.pth0#
-
-CTouch "/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app"
-s298667584.400836
-e298667584.404289
-r1
-xTouch
-x/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app
-lSLF07#2@97"Touch /Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app298667584#298667584#0(0"0(0#0#0"8613068000#301"    cd "/Users/cwiles/iPhone Projects/MessageBubbles"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/cwiles/iPhone Projects/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app"0#
-
-CTouch /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app
-s302563547.297772
-e302563547.299919
-r1
-xTouch
-x/Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app
-lSLF07#2@92"Touch /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app302563547#302563547#0(0"0(0#0#0"8609335616#287"    cd /Users/coryw/Desktop/git/MessageBubbles    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/coryw/Desktop/git/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app0#
-
-CTouch /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app
-s298590797.464799
-e298590797.467829
-r1
-xTouch
-x/Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app
-lSLF07#2@89"Touch /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app298590797#298590797#0(0"0(0#0#0"8631716480#281"    cd /Users/cwiles/Desktop/MessageBubbles    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cwiles/Desktop/MessageBubbles/build/Debug-iphonesimulator/MessageBubbles.app0#
-
