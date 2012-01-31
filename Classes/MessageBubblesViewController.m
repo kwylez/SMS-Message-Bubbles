@@ -12,20 +12,26 @@
 
 @synthesize messages;
 
-#pragma mark -
-#pragma mark View lifecycle
+- (void)dealloc {
+  
+  [messages release];
+  [super dealloc];
+}
+
+#pragma mark - View lifecycle
 
 - (void)viewDidLoad {
 
+  [super viewDidLoad];
+  
   self.messages = [NSArray arrayWithObjects:@"This is the first message", 
                                             @"This is the second message", 
                    @"This is the third message which is longer than most", 
                    @"This is the fourth message that is super super super long, This is the fourth message that is super super super long", nil];
   
-  self.tableView.backgroundColor  = [UIColor groupTableViewBackgroundColor];
-  self.tableView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-
-  [super viewDidLoad];
+  self.tableView.backgroundColor     = [UIColor lightGrayColor];
+  self.tableView.autoresizesSubviews = YES;
+  self.tableView.autoresizingMask    = UIViewAutoresizingFlexibleWidth;
 }
 
 #pragma mark -
@@ -42,11 +48,11 @@
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
 	
   // create the parent view that will hold header Label
-	UIView* customView = [[[UIView alloc] initWithFrame:CGRectMake(10.0, 0.0, 300.0, 20.0)] autorelease];
-	
-	// create the button object
-	UILabel * headerLabel = [[UILabel alloc] initWithFrame:CGRectZero];
-	
+	UIView *customView   = [[[UIView alloc] initWithFrame:CGRectMake(10.0, 0.0, 300.0, 20.0)] autorelease];
+	UILabel *headerLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+
+	customView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
+  
   headerLabel.backgroundColor      = [UIColor clearColor];
 	headerLabel.opaque               = NO;
 	headerLabel.textColor            = [UIColor darkGrayColor];
@@ -55,7 +61,7 @@
 	headerLabel.frame                = CGRectMake(115.0, 0.0, 300.0, 20.0);
 	
   	
-	headerLabel.text = @"June 18th, 2010 4:52pm"; // i.e. array element
+	headerLabel.text = @"June 18th, 2010 4:52pm";
 	
   [customView addSubview:headerLabel];
 	
@@ -75,12 +81,12 @@
   ThreadCell *cell = (ThreadCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 
   if (cell == nil) {
-    cell = [[[ThreadCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
+    cell = [[[ThreadCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
   }
 
-  cell.imgName = (indexPath.section % 2 == 0) ? @"aqua.png" : @"purple.png";
-    cell.tipRightward = (indexPath.section % 2 == 0);
-  cell.msgText = [self.messages objectAtIndex:indexPath.section];
+  cell.imgName      = (indexPath.section % 2 == 0) ? @"aqua.png" : @"purple.png";
+  cell.tipRightward = (indexPath.section % 2 == 0);
+  cell.msgText      = [self.messages objectAtIndex:indexPath.section];
       
   return cell;
 }
@@ -88,16 +94,17 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
 
 	NSString *aMsg = [self.messages objectAtIndex:indexPath.section];
+  CGFloat widthForText ;
+  
+  UIInterfaceOrientation orient = [self interfaceOrientation];
+  
+  if (UIInterfaceOrientationIsPortrait(orient)) {
+    widthForText = 260.f;
+  } else {
+    widthForText = 400.f;
+  }
     
-    CGFloat widthForText ;
-    UIInterfaceOrientation orient = [self interfaceOrientation];
-    if (UIInterfaceOrientationIsPortrait(orient)) {
-        widthForText = 260.f;
-    }else {
-        widthForText = 400.f;
-    }
-    
-	CGSize size    = [ThreadCell calcTextHeight:aMsg withinWidth:widthForText];
+	CGSize size = [ThreadCell calcTextHeight:aMsg withinWidth:widthForText];
 
 	size.height += 5;
 	
@@ -106,22 +113,14 @@
 	return height;
 }
 
-#pragma mark -
-#pragma mark Memory management
+#pragma mark - Memory management
 
 - (void)didReceiveMemoryWarning {
   [super didReceiveMemoryWarning];
 }
 
-- (void)dealloc {
-  
-  [messages release];
-  [super dealloc];
-}
-
-
 - (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
-    return YES;
+  return YES;
 }
 
 
