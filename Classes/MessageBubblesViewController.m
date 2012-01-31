@@ -11,10 +11,16 @@
 @implementation MessageBubblesViewController
 
 @synthesize messages;
+@synthesize tblView;
+@synthesize inputView;
+@synthesize sendButton;
 
 - (void)dealloc {
   
   [messages release];
+  [tblView release];
+  [inputView release];
+  [sendButton release];
   [super dealloc];
 }
 
@@ -24,18 +30,25 @@
 
   [super viewDidLoad];
   
-  self.messages = [NSArray arrayWithObjects:@"This is the first message", 
-                                            @"This is the second message", 
-                   @"This is the third message which is longer than most", 
-                   @"This is the fourth message that is super super super long, This is the fourth message that is super super super long", nil];
+  self.view.autoresizesSubviews = YES;
+  self.view.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
   
-  self.tableView.backgroundColor     = [UIColor lightGrayColor];
-  self.tableView.autoresizesSubviews = YES;
-  self.tableView.autoresizingMask    = UIViewAutoresizingFlexibleWidth;
+  self.messages = [NSMutableArray arrayWithObjects:@"This is the first message", 
+                                                   @"This is the second message", 
+                                                   @"This is the third message which is longer than most", 
+                                                   @"This is the fourth message that is super super super long, This is the fourth message that is super super super long", nil];
 }
 
-#pragma mark -
-#pragma mark Table view data source
+- (void)viewDidUnload {
+  
+  [super viewDidUnload];
+  
+  self.tblView    = nil;
+  self.inputView  = nil;
+  self.sendButton = nil;
+}
+
+#pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
   return [self.messages count];
@@ -113,14 +126,47 @@
 	return height;
 }
 
+#pragma mark - UITextViewDelegate Methods
+
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
+  
+  if ([text isEqualToString:@"\n"]) {
+    
+    [textView resignFirstResponder];
+    
+    return NO;
+  }
+  
+  return YES;
+}
+
 #pragma mark - Memory management
 
 - (void)didReceiveMemoryWarning {
   [super didReceiveMemoryWarning];
 }
 
-- (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
   return YES;
+}
+
+#pragma mark - Public Methods
+
+- (IBAction)updateChatFromTextView:(id)sender {
+
+  [self.inputView resignFirstResponder];
+  
+  NSString *newValue = [NSString stringWithFormat:@"%@", self.inputView.text];
+  
+  [self.messages addObject:newValue];
+  
+  self.inputView.text = @"";
+  
+  [self.tblView reloadData];
+  
+  NSIndexPath *lastIndexPath = [NSIndexPath indexPathForRow:0 inSection:([self.messages count] - 1)];
+
+  [self.tblView scrollToRowAtIndexPath:lastIndexPath atScrollPosition:UITableViewScrollPositionBottom animated:YES];
 }
 
 

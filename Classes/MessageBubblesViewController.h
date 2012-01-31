@@ -9,10 +9,18 @@
 #import <UIKit/UIKit.h>
 #import "ThreadCell.h"
 
-@interface MessageBubblesViewController : UITableViewController {
-  NSArray *messages;
+@interface MessageBubblesViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UITextViewDelegate> {
+  NSMutableArray *messages;
+  UITableView *tblView;
+  UITextView *inputView;
+  UIButton *sendButton;
 }
 
-@property (nonatomic, retain) NSArray *messages;
+@property (nonatomic, retain) NSMutableArray *messages;
+@property (nonatomic, retain) IBOutlet UITableView *tblView;
+@property (nonatomic, retain) IBOutlet UITextView *inputView;
+@property (nonatomic, retain) IBOutlet UIButton *sendButton;
+
+- (IBAction)updateChatFromTextView:(id)sender;
 
 @end
