@@ -16,8 +16,8 @@
 @property (nonatomic, retain) NSString *msgText;
 @property (nonatomic, retain) NSString *imgName;
 
-@property (nonatomic, assign) BOOL tipRightward; 
+@property (nonatomic, assign) BOOL tipRightward;
 
 + (CGSize)calcTextHeight:(NSString *)str;
-+ (CGSize) calcTextHeight:(NSString *)str withinWidth: (CGFloat) width;
++ (CGSize)calcTextHeight:(NSString *)str withinWidth:(CGFloat)width;
 @end
